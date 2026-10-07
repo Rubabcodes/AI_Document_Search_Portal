@@ -31,9 +31,8 @@ import requests
 # 3. CREATE UPLOAD FOLDER
 # ============================================================
 
-UPLOAD_FOLDER = Path("uploads")
+UPLOAD_FOLDER = Path("/tmp/uploads")
 UPLOAD_FOLDER.mkdir(exist_ok=True)
-
 
 # ============================================================
 # 4. DATABASE SETTINGS
