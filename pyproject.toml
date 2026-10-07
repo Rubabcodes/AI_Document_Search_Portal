@@ -1,2 +1,14 @@
+[project]
+name = "ai-document-search-portal"
+version = "1.0.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "python-multipart",
+    "requests"
+]
+
 [tool.vercel]
-entrypoint = "AI_Document_Search_Portal:app"
+entrypoint = "AI_Document_Search_Portal\:app"
