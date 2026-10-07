@@ -25,8 +25,6 @@ from sqlalchemy.orm import declarative_base, sessionmaker, Session
 
 from pathlib import Path
 import requests
-import threading
-import uvicorn
 
 
 # ============================================================
