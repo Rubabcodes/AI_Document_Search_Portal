@@ -10,7 +10,6 @@
 # ============================================================
 
 # 1. INSTALL REQUIRED LIBRARIES
-get_ipython().run_line_magic('pip', 'install fastapi uvicorn sqlalchemy pydantic python-multipart requests -q')
 
 
 # ============================================================
