@@ -1,2 +1,0 @@
-[tool.vercel]
-entrypoint = "AI_Document_Search_Portal:app"
