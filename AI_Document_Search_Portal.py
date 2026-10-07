@@ -38,8 +38,7 @@ UPLOAD_FOLDER.mkdir(exist_ok=True)
 # 4. DATABASE SETTINGS
 # ============================================================
 
-DATABASE_URL = "sqlite:///./documents.db"
-
+DATABASE_URL = "sqlite:////tmp/documents.db"
 engine = create_engine(
     DATABASE_URL,
     connect_args={"check_same_thread": False}
